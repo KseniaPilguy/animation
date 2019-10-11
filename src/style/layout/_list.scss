@@ -1,0 +1,372 @@
+.list-done {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .path {
+        margin-right: 35px;
+        height: 490px;
+
+        .wrapper {
+            width: 50px;
+            height: 50px;
+            position: relative;
+
+            &:nth-child(1) {
+                svg {
+                    circle {
+                        animation: circle-color 1.5s ease-out;
+                    }
+                }
+
+                P {
+                    animation: z-index-p forwards;
+                }
+
+                img {
+                    animation: img-index 1.5s forwards;
+                }
+            }
+
+            &:nth-child(3) {
+                svg {
+                    circle {
+                        animation: circle-color 1.5s ease-out;
+                        animation-delay: 1s;
+                    }
+                }
+
+                P {
+                    animation: z-index-p forwards;
+                    animation-delay: 1s;
+                }
+
+                img {
+                    animation: img-index 1.5s forwards;
+                    animation-delay: 1s;
+                }
+            }
+
+            &:nth-child(5) {
+                svg {
+                    circle {
+                        animation: circle-color 1.5s ease-out;
+                        animation-delay: 2s;
+                    }
+                }
+
+                P {
+                    animation: z-index-p forwards;
+                    animation-delay: 2s;
+                }
+
+                img {
+                    animation: img-index 1.5s forwards;
+                    animation-delay: 2s;
+                }
+            }
+
+            &:nth-child(7) {
+                svg {
+                    circle {
+                        animation: circle-color 1.5s ease-out forwards;
+                        animation-delay: 3s;
+                    }
+                }
+
+                P {
+                    animation: z-index-p forwards;
+                    animation-delay: 3s;
+                }
+
+                img {
+                    animation: img-index 1.5s forwards;
+                    animation-delay: 3s;
+                }
+            }
+
+            svg {
+                width: 50px;
+                height: 50px;
+
+                circle {
+                    fill: #4A5DBE;
+                    transform-origin: 50px 50px;
+                    stroke: transparent;
+                    z-index: 1;
+                }
+
+                .example {
+                    fill: #22369A;
+                    stroke-width: 2px;
+                    stroke: #4A5DBE;
+                }
+            }
+
+            p {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 20px;
+                color: white;
+                opacity: 1;
+            }
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0;
+
+
+                &:nth-child(1) {}
+
+                &:nth-child(2) {
+                    animation: img-index 1.5s 1s;
+                }
+            }
+        }
+    }
+
+
+    .line {
+        width: 50px;
+        height: 82px;
+
+        line {
+            stroke: #4A5DBE;
+            stroke-dasharray: 2 2;
+            stroke-linecap: round;
+        }
+    }
+
+
+    .items {
+
+        .item {
+            position: relative;
+            width: 250px;
+            height: 92px;
+            background-color: #4A5DBE;
+            border-radius: 25px;
+            margin-bottom: 40px;
+            animation: color 1.5s ease-out;
+
+            &:nth-child(2) {
+                animation-delay: 1s;
+            }
+
+            &:nth-child(3) {
+                animation-delay: 2s;
+            }
+
+            &:nth-child(4) {
+                animation-delay: 3s;
+                animation-fill-mode: forwards;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 37px;
+                height: 92px;
+                background-color: #AFB8E5;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+
+            }
+
+            .text-right {
+                font-size: 11px;
+                color: black;
+                transform: rotate(90deg);
+                display: inline-block;
+                position: absolute;
+                top: 39px;
+                right: -22px;
+                z-index: 1;
+            }
+
+            h5 {
+                font-size: 20px;
+                color: white;
+                padding-top: 24px;
+                margin: 0 0 5px 10px;
+
+            }
+
+            .coordinates {
+                display: flex;
+                justify-content: center;
+
+
+                h4 {
+                    font-size: 12px;
+                    color: white;
+                    margin-left: -30px;
+                }
+
+                h6 {
+                    font-size: 10px;
+                    color: white;
+                }
+
+                img {
+                    margin: -8px 6px 0;
+                }
+            }
+        }
+
+    }
+
+    .pop-up {
+        opacity: 0;
+        width: 250px;
+        height: 250px;
+        background-color: #fff;
+        box-shadow: 1px 1px 18px 2px black;
+        border-radius: 38px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: show .5s forwards 4s ;
+
+        .figure {
+
+            .first {
+                position: absolute;
+                top: 79px;
+                left: 102px;
+                width: 31px;
+                height: 0;
+                transform: rotate(-45deg);
+                animation: draw1 .5s forwards 5s ;
+
+                line {
+                    stroke: #22369A;
+                    stroke-width: 15px;
+                    stroke-linecap: round;
+                }
+            }
+
+            .second {
+                position: absolute;
+                top: 72px;
+                left: 125px;
+                width: 26px;
+                height: 0;
+                transform: rotate(32deg);
+                animation: draw2 .5s forwards 5.5s ;
+                line {
+                    stroke: #22369A;
+                    stroke-width: 15px;
+                    stroke-linecap: round;
+                }
+            }
+        }
+
+        h4 {
+            opacity: 0;
+            position: absolute;
+            bottom: 75px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #22369A;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+            animation: draw3 .5s forwards 6s ;
+        }
+    }
+}
+
+
+
+@keyframes color {
+    from {
+        background-color: #4A5DBE;
+    }
+
+    to {
+        background-color: #22369A;
+    }
+}
+
+@keyframes z-index-p {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes circle-color {
+    from {
+        fill: #4A5DBE;
+    }
+
+    to {
+        fill: #22369A;
+        stroke-width: 2px;
+        stroke: #4A5DBE;
+    }
+}
+
+@keyframes img-index {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes draw1 {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 34px;
+    }
+}
+@keyframes draw2 {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 52px;
+    }
+}
+@keyframes draw3 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

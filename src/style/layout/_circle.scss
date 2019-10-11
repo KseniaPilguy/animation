@@ -1,0 +1,144 @@
+.circle-animation {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .animation {
+        max-width: 1140px;
+        width: 100%;
+        position: relative;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .wrapper {
+            width: 200px;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .line {
+            position: absolute;
+            top: 0;
+            height: 100px;
+            width: 0;
+            border-bottom: 4px dotted #E34713;
+        }
+
+        .load {
+            fill: none;
+            stroke: #E34713;
+            stroke-width: 2;
+            stroke-dasharray: 2 2;
+            transform-origin: 50px 50px;
+        }
+
+        .special {
+            fill: none;
+            stroke: #E34713;
+            stroke-width: 2;
+            stroke-dasharray: 70 300;
+            transform-origin: 50px 50px;
+        }
+
+        .left {
+            .special {
+                transform: rotate(-90deg);
+                animation: clock 1s;
+            }
+        }
+
+        .left-line {
+            left: 17%;
+            animation: line-grow 1s;
+            animation-delay: 1s;
+            animation-fill-mode: forwards;
+        }
+
+        .right-line {
+            right: 17%;
+            animation: line-grow 1s;
+            animation-delay: 1s;
+            animation-fill-mode: forwards;
+        }
+
+        .center {
+            .special {
+                opacity: 0;
+                stroke-dasharray: 300;
+                animation: opacity 1s;
+                animation-delay: 2s;
+                animation-fill-mode: forwards;
+            }
+        }
+
+        .right {
+            .special {
+                transform: rotate(90deg);
+                animation: unclock 1s;
+            }
+        }
+    }
+
+    @keyframes clock {
+        from {
+            transform: rotate(-90deg);
+        }
+
+        to {
+            transform: rotate(270deg);
+        }
+    }
+
+    @keyframes opacity {
+        from {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes unclock {
+        from {
+            transform: rotate(90deg);
+        }
+
+        to {
+            transform: rotate(450deg);
+        }
+    }
+
+    @keyframes line-grow {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 25%;
+        }
+    }
+
+
+
+
+
+
+
+}

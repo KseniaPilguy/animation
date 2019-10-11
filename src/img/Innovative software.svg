@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55.072" height="47.795" viewBox="0 0 55.072 47.795">
+  <g id="Innovative_software" data-name="Innovative software" transform="translate(-1243.301 -11308.163)">
+    <g id="Innovative_software-2" data-name="Innovative software" transform="translate(1249.663 11308.163)">
+      <g id="Group_58" data-name="Group 58" transform="translate(0 0)">
+        <g id="Group_57" data-name="Group 57">
+          <path id="Path_31" data-name="Path 31" d="M44.123,20.2H4.6A4.63,4.63,0,0,0,0,24.851v26.5a4.622,4.622,0,0,0,4.6,4.641H17.632c-.114,2.566-.031,10.952-.1,10.945H13.093c-.58,0-.58,1.057,0,1.057H35.616c.58,0,.58-1.057,0-1.057H31.077c-.118.007.114-8.379,0-10.945H44.114a4.622,4.622,0,0,0,4.6-4.641v-26.5A4.616,4.616,0,0,0,44.123,20.2ZM1.345,24.851A3.929,3.929,0,0,1,4.6,21.629H44.114a3.916,3.916,0,0,1,3.239,3.222V49.788H1.345ZM18.879,66.938c-.04.058-.1-8.389,0-10.945H29.831c.1,2.546-.309,11-.1,10.945ZM47.353,51.352h0c0,1.393-1.859,3.063-3.239,3.063H4.586a3.42,3.42,0,0,1-2.927-3.063v-.23H47.353Z" transform="translate(0 -20.2)" fill="#707070"/>
+        </g>
+      </g>
+    </g>
+    <g id="telephone" transform="translate(1270.735 11319.174)">
+      <g id="Group_4920" data-name="Group 4920" transform="translate(0 0)">
+        <g id="Ellipse_3790" data-name="Ellipse 3790" transform="translate(0.249)" fill="none" stroke="#e34713" stroke-width="1.5">
+          <circle cx="3.347" cy="3.347" r="3.347" stroke="none"/>
+          <circle cx="3.347" cy="3.347" r="2.597" fill="none"/>
+        </g>
+        <line id="Line_244" data-name="Line 244" x2="7.314" transform="translate(0 8.553)" fill="none" stroke="#e34713" stroke-linecap="round" stroke-width="1.5"/>
+        <line id="Line_245" data-name="Line 245" x2="7.314" transform="translate(0 12.272)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+        <line id="Line_246" data-name="Line 246" x2="4.174" transform="translate(1.653 14.586)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+      </g>
+    </g>
+    <rect id="Rectangle_1493" data-name="Rectangle 1493" width="13.159" height="28.848" rx="2" transform="translate(1243.807 11326.604)" fill="#fbfbfb"/>
+    <path id="Path_2624" data-name="Path 2624" d="M12.525,0H1.693C.759,0,0,1.076,0,2.4V27.351c0,1.323.759,2.4,1.693,2.4H12.525c.933,0,1.693-1.076,1.693-2.4V2.4C14.217,1.076,13.458,0,12.525,0ZM1.693.96H12.525c.56,0,.829.646.829,1.44v.48H.817V2.4C.817,1.606,1.133.96,1.693.96ZM13.354,3.839V23.033H.817V3.839Zm-.829,24.952H1.693c-.56,0-.876-.646-.876-1.44V23.992H13.354v3.359C13.354,28.145,13.084,28.791,12.525,28.791Zm0,0" transform="translate(1243.301 11326.207)" fill="#707070"/>
+    <path id="Path_2625" data-name="Path 2625" d="M145.4,416a1.4,1.4,0,1,0,1.4,1.4A1.4,1.4,0,0,0,145.4,416Z" transform="translate(1104.879 10935.137)" fill="none" stroke="#707070" stroke-width="1.5"/>
+    <g id="Ellipse_3393" data-name="Ellipse 3393" transform="translate(1247.019 11332.396)" fill="none" stroke="#e34713" stroke-width="1.5">
+      <circle cx="3.347" cy="3.347" r="3.347" stroke="none"/>
+      <circle cx="3.347" cy="3.347" r="2.597" fill="none"/>
+    </g>
+    <line id="Line_231" data-name="Line 231" x2="6.694" transform="translate(1247.391 11340.949)" fill="none" stroke="#e34713" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Line_232" data-name="Line 232" x2="6.694" transform="translate(1247.391 11344.667)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Line_233" data-name="Line 233" x2="3.719" transform="translate(1248.879 11346.154)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

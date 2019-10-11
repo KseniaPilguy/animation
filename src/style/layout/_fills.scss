@@ -1,0 +1,74 @@
+.fills {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 768px;
+    margin: 100px auto;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .wrapper {
+        position: relative;
+        svg {
+            margin: 0 20px;
+
+            .load {
+                fill: transparent;
+                stroke: #002395;
+                stroke-dasharray: 1 2;
+                transform-origin: 50% 50%;
+            }
+
+            .special {
+                fill: transparent;
+                stroke: #002395;
+                stroke-width: 1px;
+                stroke-dasharray: 75 300;
+                transform-origin: 50% 50%;
+                transform: rotate(-90deg);
+                animation: fill 2.5s forwards ease-in-out;
+            }
+        }
+        p {
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #002395;
+            font-size: 22px;
+            text-align: center;
+            animation: opacity-text 1s forwards ease-in-out 2.5s;
+        }
+    }
+}
+
+@keyframes fill {
+    from {
+        stroke-dasharray: 75 300;
+    }
+
+    50% {
+        stroke-dasharray: 150 300;
+    }
+
+    75% {
+        stroke-dasharray: 230 300;
+    }
+
+    to {
+        stroke-dasharray: 302 300;
+    }
+}
+@keyframes opacity-text {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
