@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="358.65" viewBox="0 0 375 358.65">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Rectangle_1499" data-name="Rectangle 1499" d="M48,0H327a48,48,0,0,1,48,48V358.65a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V48A48,48,0,0,1,48,0Z" transform="translate(0 454.35)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.055" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff5f47"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_16" data-name="Mask Group 16" transform="translate(0 -454.35)" clip-path="url(#clip-path)">
+    <g id="graph">
+      <g id="Group_4872" data-name="Group 4872" transform="translate(0 -25.65)">
+        <path id="Rectangle_1442" data-name="Rectangle 1442" d="M48,0H327a48,48,0,0,1,48,48V358.65a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V48A48,48,0,0,1,48,0Z" transform="translate(0 479)" fill="#fff"/>
+        <g id="Group_4945" data-name="Group 4945" transform="translate(29 746.957)">
+          <g id="Group_4944" data-name="Group 4944">
+            <path id="Path_3849" data-name="Path 3849" d="M40,736v9.285" transform="translate(-30 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+            <text id="_6_am" data-name="6
+am" transform="translate(0 13.928)" fill="#1a050e" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.05em" opacity="0.5"><tspan x="7.167" y="12">6</tspan><tspan x="2.487" y="24">am</tspan></text>
+          </g>
+          <g id="Group_4944-2" data-name="Group 4944" transform="translate(37)">
+            <path id="Path_3849-2" data-name="Path 3849" d="M40,736v9.285" transform="translate(-40 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+          </g>
+          <g id="Group_4944-3" data-name="Group 4944" transform="translate(54)">
+            <path id="Path_3849-3" data-name="Path 3849" d="M40,736v9.285" transform="translate(-30 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+            <text id="_10_am" data-name="10
+am" transform="translate(0 13.928)" fill="#1a050e" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.05em" opacity="0.5"><tspan x="4.931" y="12">10</tspan><tspan x="2.487" y="24">am</tspan></text>
+          </g>
+          <g id="Group_4944-4" data-name="Group 4944" transform="translate(91)">
+            <path id="Path_3849-4" data-name="Path 3849" d="M40,736v9.285" transform="translate(-40 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+          </g>
+          <g id="Group_4944-5" data-name="Group 4944" transform="translate(108)">
+            <path id="Path_3849-5" data-name="Path 3849" d="M40,736v9.285" transform="translate(-30 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+            <text id="_2_pm" data-name="2
+pm" transform="translate(0 13.928)" fill="#1a050e" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.05em" opacity="0.5"><tspan x="7.167" y="12">2</tspan><tspan x="2.125" y="24">pm</tspan></text>
+          </g>
+          <g id="Group_4944-6" data-name="Group 4944" transform="translate(145)">
+            <path id="Path_3849-6" data-name="Path 3849" d="M40,736v9.285" transform="translate(-40 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+          </g>
+          <g id="Group_4944-7" data-name="Group 4944" transform="translate(162)">
+            <path id="Path_3849-7" data-name="Path 3849" d="M40,736v9.285" transform="translate(-30 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+            <text id="_6_pm" data-name="6
+pm" transform="translate(0 13.928)" fill="#1a050e" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.05em" opacity="0.5"><tspan x="7.167" y="12">6</tspan><tspan x="2.125" y="24">pm</tspan></text>
+          </g>
+          <g id="Group_4944-8" data-name="Group 4944" transform="translate(199)">
+            <path id="Path_3849-8" data-name="Path 3849" d="M40,736v9.285" transform="translate(-40 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+          </g>
+          <g id="Group_4944-9" data-name="Group 4944" transform="translate(216)">
+            <path id="Path_3849-9" data-name="Path 3849" d="M40,736v9.285" transform="translate(-30 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+            <text id="_10_pm" data-name="10
+pm" transform="translate(0 13.928)" fill="#1a050e" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.05em" opacity="0.5"><tspan x="4.931" y="12">10</tspan><tspan x="2.125" y="24">pm</tspan></text>
+          </g>
+          <g id="Group_4944-10" data-name="Group 4944" transform="translate(253)">
+            <path id="Path_3849-10" data-name="Path 3849" d="M40,736v9.285" transform="translate(-40 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+          </g>
+          <g id="Group_4944-11" data-name="Group 4944" transform="translate(270)">
+            <path id="Path_3849-11" data-name="Path 3849" d="M40,736v9.285" transform="translate(-30 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+            <text id="_2_am" data-name="2
+am" transform="translate(0 13.928)" fill="#1a050e" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300" letter-spacing="0.05em" opacity="0.5"><tspan x="7.167" y="12">2</tspan><tspan x="2.487" y="24">am</tspan></text>
+          </g>
+          <g id="Group_4944-12" data-name="Group 4944" transform="translate(307)">
+            <path id="Path_3849-12" data-name="Path 3849" d="M40,736v9.285" transform="translate(-40 -736)" fill="#1a050e" stroke="#707070" stroke-width="1.5"/>
+          </g>
+        </g>
+        <g id="Group_4946" data-name="Group 4946" transform="translate(40 589.851)">
+          <path id="Path_3851" data-name="Path 3851" d="M344,763.064s-42.99-1.686-64,0-14.08-38.194-33.068-39.631-9.4-26.832-30.056-30.837-20.682,56.538-46.888,57.251c-25.525.695-12.489-19.2-38.994-25.982-.4-.1-1.126-.273-1.883-.432a23.9,23.9,0,0,0-12.556.262C101.29,728.533,102,752.6,80,749.847c-26.6-3.326-40-11.277-40-11.277v36.46H344Z" transform="translate(-40 -615.603)" fill="url(#linear-gradient)"/>
+          <path id="Path_3850" data-name="Path 3850" d="M40,740.973s11.269,5.049,37.872,8.441,24.532-31.608,53.644-25.346,9.44,26.073,35.646,25.346,28.634-60.267,49.292-56.184S228.3,722.6,247.292,724.068s11.7,43.6,32.708,41.879,64,0,64,0" transform="translate(-40 -615.816)" fill="none" stroke="#ff5f47" stroke-width="2.5"/>
+        </g>
+      </g>
+      <g id="Group_4942" data-name="Group 4942" transform="translate(-17 36)">
+        <g id="steps" transform="translate(214 190)">
+          <g id="Group_4934" data-name="Group 4934" transform="translate(-132.146 -93.64)">
+            <text id="kcal" transform="translate(263.146 383.639)" fill="#061e36" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" opacity="0.5"><tspan x="-10.159" y="0">kcal</tspan></text>
+            <text id="_271" data-name="271" fill="#ff5f47" stroke="rgba(0,0,0,0)" transform="translate(263.146 367.64)" stroke-width="1" font-size="13" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="0.05em"><tspan x="-10.359" y="0">271</tspan></text>
+          </g>
+        </g>
+        <text id="Calories_burnt" data-name="Calories burnt" fill="#061e36" stroke="rgba(0,0,0,0)" transform="translate(48 474)" stroke-width="1" font-size="18" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">Calories burnt</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
